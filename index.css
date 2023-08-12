@@ -1,0 +1,150 @@
+/* Define animation keyframes */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-home {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.home-circle2 {
+  top: 18px;
+  left: -70px;
+  width: 906px;
+  height: 952px;
+  position: absolute;
+}
+
+.home-circle1 {
+  top: 20px;
+  right: -184px;
+  width: 906px;
+  height: 952px;
+  position: absolute;
+}
+
+.home-text {
+  top: 708px;
+  color: #32a3c9;
+  right: 30px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  font-size: 54px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  animation: slideInFromRight 1.3s ease-in-out 0.5s forwards;
+}
+
+.home-text1 {
+  top: 199px;
+  left: 31px;
+  color: rgba(213, 98, 166, 1);
+  width: 537px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  animation: slideInFromRight 1s ease-in-out 0.5s forwards;
+}
+
+.home-muslima14 {
+  top: 280px;
+  left: 20px;
+  width: 1400px;
+  height: 366.2109375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.home-muslima14 img {
+  transition: transform 0.3s ease;
+}
+
+.home-muslima14 img:hover {
+  transform: scale(1.2);
+}
+
+.home-muslima4 {
+  top: 0px;
+  left: 0px;
+  width: 312px;
+  height: 366px;
+  position: absolute;
+}
+
+.home-muslima3 {
+  top: 0px;
+  left: 362.73199462890625px;
+  width: 312px;
+  height: 365px;
+  position: absolute;
+}
+
+.home-muslima2 {
+  top: 0px;
+  left: 725.4639892578125px;
+  width: 312px;
+  height: 366px;
+  position: absolute;
+}
+
+.home-muslima1 {
+  top: 0px;
+  left: 1088.196044921875px;
+  width: 312px;
+  height: 366px;
+  position: absolute;
+}
+
+.home-text3 {
+  top: 668px;
+  color: rgb(255, 255, 255);
+  right: 56px;
+  width: 537px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  animation: slideInFromRight 1.2s ease-in-out 0.5s forwards;
+}
